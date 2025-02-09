@@ -1,5 +1,5 @@
-DareDevil-Write-up-TryHackMe
-Information
+# DareDevil-Write-up-TryHackMe
+## Information
 I have developed a terminal-based Reverse Engineering guessing game in C, and I've decided to deploy it to a TryHackMe room.. You can find it on my GitHub Profile.
 Room
 Name: DareDevil

@@ -85,32 +85,73 @@
 
 ![image](https://github.com/user-attachments/assets/037c4109-9302-4766-afdc-4c1d14ad6937)
 
-Again i've eneterd 0 soulAgain devil gave a number that is 85.
+- Again i've eneterd 0 soul
+- Once more devil gave a number that is 85.
 
-I entered 2Again devil said to give the number of soul.
+![image](https://github.com/user-attachments/assets/ad6b65f4-410a-4cf1-9d8f-e2cc955ca9ea)
 
-Again i've eneterd 0 soulIt was the last lap that devil gave a number that is 49.One thing I noticed in this level is that there are certain patterns involving two stack memory addresses and three heap memory addresses. While there were no changes in the heap memory, the stack memory addresses were changing.
+- I entered 2
+- Again devil said to give the number of soul.
 
-Then i entered 4After that I got flag of Sinister level.
+  ![image](https://github.com/user-attachments/assets/c3538786-d0ad-46ad-b892-33b605f48ed1)
 
-After pressing the 'Got the Flag' button, I was prompted in the menu mode.
+- Again i've eneterd 0 soul
+- It was the last lap that devil gave a number that is 49. 
+- One thing I noticed in this level is that there are certain patterns involving two stack memory addresses and three heap memory addresses.
+- While there were no changes in the heap memory, the stack memory addresses were changing.
 
-Ummm….it seems that a file was created, and I noticed that the number of souls was either decreasing or increasing..
-I found i file it is located in /usr/share/dare-devil directory and the name of the file is Soul_data.txt
+  ![image](https://github.com/user-attachments/assets/6a274986-0601-447d-8afd-2a1c7323e8a1)
 
-File looks like this:
+- Then i entered 4
+- After that I got flag of Sinister level.
 
-Due to limited resources in the terminal, the font style I used is not displaying properlyHowever, if I modify the file's content, such as changing the soul value from 69 to 99, it becomes vulnerable to manipulation.
+![image](https://github.com/user-attachments/assets/5e1256b7-e076-43d3-8fb3-bf8e19edee07)
 
-Now i gained 99 souls but don't be greedyThen, it asked me to provide the souls.
 
-I enterd 0 SoulsAgain it asks me to select the level.
+- While pressing the 'Got the Flag' button, I was prompted in the menu mode.
 
-Now this time i enterd Level 2: Inferno ModeThe window appears as shown below.
+![image](https://github.com/user-attachments/assets/9c22d1e0-7e23-42b3-a134-6fbf37d0d426)
 
-Then i enterd 1Once again, I was taken to the menu mode, which indicates that there is only one lap. I also noticed that the Devil took 50 souls from me.
 
-Now Again devil asked me how many number you want to sell??..then i provide 0 and select the inferno mode..and again played the game. But this time i got the flag of Inferno Level.
+- Ummm….it seems that a file was created, and I noticed that the number of souls was either decreasing or increasing..
+- I found i file it is located in /usr/share/dare-devil directory and the name of the file is Soul_data.txt
+
+![image](https://github.com/user-attachments/assets/ecf86b91-6e2c-4166-81c6-a90e2043aeed)
+
+- File looks like this:
+
+![image](https://github.com/user-attachments/assets/465ebb6e-61d7-4527-bd07-c5672d90ccdf)
+
+- Due to limited resources in the terminal, the font style I used is not displaying properly
+- However, if I modify the file's content, such as changing the soul value from 69 to 99, it becomes vulnerable to manipulation.
+
+![image](https://github.com/user-attachments/assets/4761bdd1-09e2-470c-badf-cc92a2aa842f)
+
+- Now i gained 99 souls but don't be greedy
+- Then, it asked me to provide the souls.
+
+![image](https://github.com/user-attachments/assets/de483dfe-4782-468d-8521-276fc9939a5d)
+
+- I enterd 0 Soul
+- Again it asks me to select the level.
+
+![image](https://github.com/user-attachments/assets/75aba008-9134-4e84-9416-0cef50d647ec)
+
+- Now this time i enterd <b>Level 2: Inferno Mode</b>
+- The window appears as shown below.
+
+![image](https://github.com/user-attachments/assets/fdb7f019-bd47-41d4-b1ce-62f0c92aa8e7)
+
+- Then i enterd 1
+- <p>Once again, I was taken to the menu mode, which indicates that there is only one lap. I also noticed that the Devil took 50 souls from me.</p>
+
+  ![image](https://github.com/user-attachments/assets/0dadecf5-9548-4f10-8caf-55e43d4ef869)
+
+
+- <p>Now Again devil asked me how many number you want to sell??..then i provide 0 and select the inferno mode..and again played the game. But this time i got the flag of Inferno Level.</p>
+
+![image](https://github.com/user-attachments/assets/f8268f42-1412-4c21-9642-a48841777602)
+
 
 Method 2:
 Now, let's approach this as a reverse engineering task - decompiling the structure of the program and analyzing the functions used within it. To do so, I am using the GNU Debugger (gdb) tool.

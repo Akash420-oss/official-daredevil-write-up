@@ -1,37 +1,88 @@
-# DareDevil-Write-up-TryHackMe
-## Information
-I have developed a terminal-based Reverse Engineering guessing game in C, and I've decided to deploy it to a TryHackMe room.. You can find it on my GitHub Profile.
-Room
-Name: DareDevil
-Profile: tryhackme.com
-Difficulty: Easy
-Description: This room is designed to offer a game-based experience.
-Author: akash420(Akash Sil)
+<div align="center">
+<h1 color="red"> Official-DareDevil-Write-up-TryHackMe</h1>
+<h2>Information</h2> 
+<ul>
+<li>I have developed a terminal-based Reverse Engineering guessing game in C.</li> 
+<li>I've decided to deploy it to a TryHackMe room.</li>
+<li>You can find it on my <a href="https://github.com/Akash420-oss/Dare-Devil">GitHub Profile.</a></li>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+</ul>
+<img  src="https://github.com/user-attachments/assets/2c2c4193-5e38-4028-b887-aadc091073a7">
+</div>
 
-DareDevilWrite-up
-Method 1:
-Download the task file - please note it may take some time as the file is a zip archive.
-Download and install Oracle VirtualBox if you haven't already.
-After extracting the zip file, you will find a .ovf file.
 
-You will Find a DareDevil.ovf fileImport the DareDevil.ovf file into VirtualBox to complete the setup.
+## Room
 
-It is Importing the fileOnce the import is complete, please run the application and use the following credentials:
+- Name: DareDevil
+- Profile: <a href="https://tryhackme.com/room/daredevil">tryhackme.com</a>
+- Difficulty: Easy
+- Description: This room is designed to offer a game-based experience.
+- Author: <a href="https://tryhackme.com/p/akash420">akash420(Akash Sil)</a>
 
-username: devil & password: devilAfter logging in, you should see a DareDevil icon, which is the same as the room icon.
+<div align="center">
+  <img  src="https://github.com/user-attachments/assets/d977726b-ccdc-4820-b636-e88e82c77d43">
+</div>
 
-Double-click on the icon to open it.When prompted, enter the root password: devil.
-When prompted, please enter the root password: devil. After that, the window should appear as shown below.
 
-It is showing me some rules before start the gameAfter providing my name, the window will display the following message:
+# Write-up
+## Method 1:
+- Download the task file - please note it may take some time as the file is a zip archive.
+- Download and install Oracle VirtualBox if you haven't already.
+- After extracting the zip file, you will find a .ovf file.
 
-It shows that I have 99 credits (or souls).It will then prompt me to spend some of the 99 souls.
+  <img src="https://github.com/user-attachments/assets/16f9ec99-250e-4e72-85f0-9590f0e660ba">
 
-I provided 0 soulNext, it will ask me to choose a level mode.
 
-I chose Level 1: Sinister Level.After pressing Enter, the window will appear as shown below. The Devil provided a number which is 6 , and asked to specify the memory address where the number, between 1 to 5, is located.
 
-I Entered 1Once again, the Devil requested that I give up a soul.
+- You will Find a <b>DareDevil.ovf</b> file
+- <b>Import the DareDevil.ovf file into VirtualBox</b> to complete the setup.
+
+  ![image](https://github.com/user-attachments/assets/25d56b85-c862-47ad-9265-2c583ac3e2fe)
+
+
+- Once the import is complete, please run the application and use the following credentials:
+  - <b>username: devil
+  -  password: devil</b>
+    
+    ![image](https://github.com/user-attachments/assets/36043681-f6ab-4308-bd52-26b1e446b827)
+
+- After logging in, you should see a <bDareDevil icon</b>, which is the same as the room icon.
+
+![image](https://github.com/user-attachments/assets/9449c6b9-45f2-4c3c-b474-d0e6dc99b310)
+
+
+- Double-click on the icon to open it.
+- When prompted, enter the <b>root password: devil.</b>
+- When prompted, please enter the root password: devil. After that, the window should appear as shown below.
+
+  ![image](https://github.com/user-attachments/assets/0ce5cb0f-1281-4022-8beb-d818afe8cb6c)
+
+- It is showing me some rules before start the game
+
+- After providing my name, the window will display the following message:
+
+![image](https://github.com/user-attachments/assets/812ebf2d-7f95-46c9-bb94-f86c0e7b8dc6)
+
+- It shows that I have 99 credits (or souls).
+- It will then prompt me to spend some of the 99 souls.
+
+  ![image](https://github.com/user-attachments/assets/eaf6fdf2-265e-43ad-8532-9aaac928d49c)
+
+- I provided 0 soul
+- Next, it will ask me to choose a level mode.
+
+  ![image](https://github.com/user-attachments/assets/ea00612a-f48d-44ff-96bd-2336f953aa78)
+
+- I chose <b>Level 1: Sinister Level.</b>
+
+- After pressing Enter, the window will appear as shown below.
+- The Devil provided a number which is 6 , and asked to specify the memory address where the number, between 1 to 5, is located.
+
+  ![image](https://github.com/user-attachments/assets/c42dce14-cfe0-4291-a371-46c58bf41e76)
+
+- I entered 1
+- Once again, the Devil requested that I give up a soul.
+
+![image](https://github.com/user-attachments/assets/037c4109-9302-4766-afdc-4c1d14ad6937)
 
 Again i've eneterd 0 soulAgain devil gave a number that is 85.
 
